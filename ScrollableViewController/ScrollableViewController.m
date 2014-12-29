@@ -77,6 +77,15 @@
     self.scrollView.contentSize = CGSizeMake([self viewWidth] * count, [self frameForSubviewControllers].size.height);
 }
 
+- (void)updateIndexIfNeeded {
+    CGPoint offset = self.scrollView.contentOffset;
+    NSInteger index = offset.x / [self viewWidth];
+    if (index != self.index) {
+        self.index = index;
+        self.tabBar.index = index;
+    }
+}
+
 #pragma mark - property
 - (void)setIndex:(NSInteger)index {
     _index = index;
@@ -121,12 +130,14 @@
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    [self updateIndexIfNeeded];
     if (self.scrollViewDelegate && [self.scrollViewDelegate respondsToSelector:_cmd]) {
         [self.scrollViewDelegate scrollViewDidEndDecelerating:scrollView];
     }
 }
 
 - (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
+    [self updateIndexIfNeeded];
     if (self.scrollViewDelegate && [self.scrollViewDelegate respondsToSelector:_cmd]) {
         [self.scrollViewDelegate scrollViewDidEndScrollingAnimation:scrollView];
     }

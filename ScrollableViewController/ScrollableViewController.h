@@ -13,6 +13,8 @@
 @property (nonatomic, assign) NSInteger index;
 @property (nonatomic, strong) NSArray *viewControllers;
 @property (nonatomic, strong) id<UIScrollViewDelegate> scrollViewDelegate;
+@property (nonatomic, strong) void(^indexDidChanged)(ScrollableViewController *vc, NSInteger index);
+
 
 - (instancetype)initWithViewControllers:(NSArray *)viewControllers;
 - (CGRect)frameForSubviewControllers;

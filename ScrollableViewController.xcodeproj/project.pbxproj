@@ -16,6 +16,7 @@
 		FB324AD31A5115C40085B50B /* ScrollableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324AD21A5115C40085B50B /* ScrollableViewControllerTests.m */; };
 		FB324ADE1A5116450085B50B /* ScrollableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324ADD1A5116450085B50B /* ScrollableViewController.m */; };
 		FB324AE11A5126290085B50B /* ScrollableTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324AE01A5126290085B50B /* ScrollableTabBar.m */; };
+		FB8ADBCD1A5134CD002174B5 /* FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8ADBCC1A5134CD002174B5 /* FrameAccessor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		FB324ADD1A5116450085B50B /* ScrollableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollableViewController.m; sourceTree = "<group>"; };
 		FB324ADF1A5126290085B50B /* ScrollableTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollableTabBar.h; sourceTree = "<group>"; };
 		FB324AE01A5126290085B50B /* ScrollableTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollableTabBar.m; sourceTree = "<group>"; };
+		FB8ADBCB1A5134CD002174B5 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		FB8ADBCC1A5134CD002174B5 /* FrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameAccessor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 		FB324AB51A5115C40085B50B /* ScrollableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FB8ADBCB1A5134CD002174B5 /* FrameAccessor.h */,
+				FB8ADBCC1A5134CD002174B5 /* FrameAccessor.m */,
 				FB324ABA1A5115C40085B50B /* AppDelegate.h */,
 				FB324ABB1A5115C40085B50B /* AppDelegate.m */,
 				FB324ADC1A5116450085B50B /* ScrollableViewController.h */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8ADBCD1A5134CD002174B5 /* FrameAccessor.m in Sources */,
 				FB324ABF1A5115C40085B50B /* ViewController.m in Sources */,
 				FB324AE11A5126290085B50B /* ScrollableTabBar.m in Sources */,
 				FB324ABC1A5115C40085B50B /* AppDelegate.m in Sources */,
@@ -424,6 +430,7 @@
 				FB324AD81A5115C40085B50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB324AD91A5115C40085B50B /* Build configuration list for PBXNativeTarget "ScrollableViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				FB324ADB1A5115C40085B50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

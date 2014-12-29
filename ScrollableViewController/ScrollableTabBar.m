@@ -7,6 +7,7 @@
 //
 
 #import "ScrollableTabBar.h"
+#import "FrameAccessor.h"
 #define RANDOM_COLOR [UIColor colorWithRed:(float)random() / (float)RAND_MAX green:(float)random() / (float)RAND_MAX blue:(float)random() / (float)RAND_MAX alpha:1]
 @interface ScrollableTabBar ()
 
@@ -49,6 +50,10 @@
     UIView *view = [UIView new];
     view.backgroundColor = [UIColor redColor];
     view.frame = CGRectMake(0, 0, 0, 4);
+    UIButton *button = self.buttons[_index];
+    view.width = button.width;
+    view.maxY = self.height;
+    [self addSubview:view];
     self.floatBlock = view;
 }
 
@@ -71,6 +76,11 @@
 - (void)setIndex:(NSInteger)index {
     _index = index;
     [self.buttons enumerateObjectsUsingBlock:^(UIButton *button, NSUInteger idx, BOOL *stop) {
+    }];
+    UIButton *button = self.buttons[_index];
+    [UIView animateWithDuration:.1 animations:^{
+        self.floatBlock.midX = button.midX;
+        self.floatBlock.width = button.width;
     }];
 }
 
