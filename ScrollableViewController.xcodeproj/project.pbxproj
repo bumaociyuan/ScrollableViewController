@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB324AB91A5115C40085B50B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324AB81A5115C40085B50B /* main.m */; };
+		FB324ABC1A5115C40085B50B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324ABB1A5115C40085B50B /* AppDelegate.m */; };
+		FB324ABF1A5115C40085B50B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324ABE1A5115C40085B50B /* ViewController.m */; };
+		FB324AC21A5115C40085B50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB324AC01A5115C40085B50B /* Main.storyboard */; };
+		FB324AC41A5115C40085B50B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB324AC31A5115C40085B50B /* Images.xcassets */; };
+		FB324AC71A5115C40085B50B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB324AC51A5115C40085B50B /* LaunchScreen.xib */; };
+		FB324AD31A5115C40085B50B /* ScrollableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324AD21A5115C40085B50B /* ScrollableViewControllerTests.m */; };
+		FB324ADE1A5116450085B50B /* ScrollableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324ADD1A5116450085B50B /* ScrollableViewController.m */; };
+		FB324AE11A5126290085B50B /* ScrollableTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FB324AE01A5126290085B50B /* ScrollableTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB324ACD1A5115C40085B50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB324AAB1A5115C40085B50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB324AB21A5115C40085B50B;
+			remoteInfo = ScrollableViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB324AB31A5115C40085B50B /* ScrollableViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB324AB71A5115C40085B50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB324AB81A5115C40085B50B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB324ABA1A5115C40085B50B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB324ABB1A5115C40085B50B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB324ABD1A5115C40085B50B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB324ABE1A5115C40085B50B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB324AC11A5115C40085B50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB324AC31A5115C40085B50B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB324AC61A5115C40085B50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB324ACC1A5115C40085B50B /* ScrollableViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB324AD11A5115C40085B50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB324AD21A5115C40085B50B /* ScrollableViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollableViewControllerTests.m; sourceTree = "<group>"; };
+		FB324ADC1A5116450085B50B /* ScrollableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollableViewController.h; sourceTree = "<group>"; };
+		FB324ADD1A5116450085B50B /* ScrollableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollableViewController.m; sourceTree = "<group>"; };
+		FB324ADF1A5126290085B50B /* ScrollableTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollableTabBar.h; sourceTree = "<group>"; };
+		FB324AE01A5126290085B50B /* ScrollableTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollableTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB324AB01A5115C40085B50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB324AC91A5115C40085B50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB324AAA1A5115C40085B50B = {
+			isa = PBXGroup;
+			children = (
+				FB324AB51A5115C40085B50B /* ScrollableViewController */,
+				FB324ACF1A5115C40085B50B /* ScrollableViewControllerTests */,
+				FB324AB41A5115C40085B50B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB324AB41A5115C40085B50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB324AB31A5115C40085B50B /* ScrollableViewController.app */,
+				FB324ACC1A5115C40085B50B /* ScrollableViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB324AB51A5115C40085B50B /* ScrollableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FB324ABA1A5115C40085B50B /* AppDelegate.h */,
+				FB324ABB1A5115C40085B50B /* AppDelegate.m */,
+				FB324ADC1A5116450085B50B /* ScrollableViewController.h */,
+				FB324ADD1A5116450085B50B /* ScrollableViewController.m */,
+				FB324ADF1A5126290085B50B /* ScrollableTabBar.h */,
+				FB324AE01A5126290085B50B /* ScrollableTabBar.m */,
+				FB324ABD1A5115C40085B50B /* ViewController.h */,
+				FB324ABE1A5115C40085B50B /* ViewController.m */,
+				FB324AC01A5115C40085B50B /* Main.storyboard */,
+				FB324AC31A5115C40085B50B /* Images.xcassets */,
+				FB324AC51A5115C40085B50B /* LaunchScreen.xib */,
+				FB324AB61A5115C40085B50B /* Supporting Files */,
+			);
+			path = ScrollableViewController;
+			sourceTree = "<group>";
+		};
+		FB324AB61A5115C40085B50B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB324AB71A5115C40085B50B /* Info.plist */,
+				FB324AB81A5115C40085B50B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB324ACF1A5115C40085B50B /* ScrollableViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB324AD21A5115C40085B50B /* ScrollableViewControllerTests.m */,
+				FB324AD01A5115C40085B50B /* Supporting Files */,
+			);
+			path = ScrollableViewControllerTests;
+			sourceTree = "<group>";
+		};
+		FB324AD01A5115C40085B50B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB324AD11A5115C40085B50B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB324AB21A5115C40085B50B /* ScrollableViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB324AD61A5115C40085B50B /* Build configuration list for PBXNativeTarget "ScrollableViewController" */;
+			buildPhases = (
+				FB324AAF1A5115C40085B50B /* Sources */,
+				FB324AB01A5115C40085B50B /* Frameworks */,
+				FB324AB11A5115C40085B50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableViewController;
+			productName = ScrollableViewController;
+			productReference = FB324AB31A5115C40085B50B /* ScrollableViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB324ACB1A5115C40085B50B /* ScrollableViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB324AD91A5115C40085B50B /* Build configuration list for PBXNativeTarget "ScrollableViewControllerTests" */;
+			buildPhases = (
+				FB324AC81A5115C40085B50B /* Sources */,
+				FB324AC91A5115C40085B50B /* Frameworks */,
+				FB324ACA1A5115C40085B50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB324ACE1A5115C40085B50B /* PBXTargetDependency */,
+			);
+			name = ScrollableViewControllerTests;
+			productName = ScrollableViewControllerTests;
+			productReference = FB324ACC1A5115C40085B50B /* ScrollableViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB324AAB1A5115C40085B50B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = zx;
+				TargetAttributes = {
+					FB324AB21A5115C40085B50B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					FB324ACB1A5115C40085B50B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FB324AB21A5115C40085B50B;
+					};
+				};
+			};
+			buildConfigurationList = FB324AAE1A5115C40085B50B /* Build configuration list for PBXProject "ScrollableViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB324AAA1A5115C40085B50B;
+			productRefGroup = FB324AB41A5115C40085B50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB324AB21A5115C40085B50B /* ScrollableViewController */,
+				FB324ACB1A5115C40085B50B /* ScrollableViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB324AB11A5115C40085B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB324AC21A5115C40085B50B /* Main.storyboard in Resources */,
+				FB324AC71A5115C40085B50B /* LaunchScreen.xib in Resources */,
+				FB324AC41A5115C40085B50B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB324ACA1A5115C40085B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB324AAF1A5115C40085B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB324ABF1A5115C40085B50B /* ViewController.m in Sources */,
+				FB324AE11A5126290085B50B /* ScrollableTabBar.m in Sources */,
+				FB324ABC1A5115C40085B50B /* AppDelegate.m in Sources */,
+				FB324AB91A5115C40085B50B /* main.m in Sources */,
+				FB324ADE1A5116450085B50B /* ScrollableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB324AC81A5115C40085B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB324AD31A5115C40085B50B /* ScrollableViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB324ACE1A5115C40085B50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB324AB21A5115C40085B50B /* ScrollableViewController */;
+			targetProxy = FB324ACD1A5115C40085B50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB324AC01A5115C40085B50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB324AC11A5115C40085B50B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB324AC51A5115C40085B50B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB324AC61A5115C40085B50B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB324AD41A5115C40085B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB324AD51A5115C40085B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB324AD71A5115C40085B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB324AD81A5115C40085B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollableViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB324ADA1A5115C40085B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollableViewController.app/ScrollableViewController";
+			};
+			name = Debug;
+		};
+		FB324ADB1A5115C40085B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScrollableViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollableViewController.app/ScrollableViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB324AAE1A5115C40085B50B /* Build configuration list for PBXProject "ScrollableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB324AD41A5115C40085B50B /* Debug */,
+				FB324AD51A5115C40085B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB324AD61A5115C40085B50B /* Build configuration list for PBXNativeTarget "ScrollableViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB324AD71A5115C40085B50B /* Debug */,
+				FB324AD81A5115C40085B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB324AD91A5115C40085B50B /* Build configuration list for PBXNativeTarget "ScrollableViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB324ADA1A5115C40085B50B /* Debug */,
+				FB324ADB1A5115C40085B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB324AAB1A5115C40085B50B /* Project object */;
+}
